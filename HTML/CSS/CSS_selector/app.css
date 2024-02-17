@@ -1,0 +1,89 @@
+body {
+    background-color: pink;
+}
+p {
+    color: gray;
+}
+
+button {
+    font-size: 30px;
+    background-color: white;
+}
+
+
+.question {
+    color: red;
+    font-size: 30px;
+}
+
+/* adjacent selector */
+p + button {
+    background-color: pink;
+}
+/* selector 2 is after selector 1 */
+/*
+. class selector {} : 
+#id selector{} ;
+selectors which is spaced by the space is descendant selector
+to css for all use *
+css 2 selector or above use , not space 
+ */
+
+ /* selector1 selector2
+ selector2 is a descendant of selector1
+ */
+ footer a {
+    color: red;
+ }
+
+ /* direct descendant 
+ selector 1 > selector 2
+ */
+footer > a {
+    color: #a8dadc;
+}
+
+input[type="password"] {
+    color: yellow;
+}
+/* | */
+/* | */
+/* | */
+/* V */
+
+/*css pseudo class */
+/* :hover */
+/* button:hover {
+    background-color: red;
+    color: white;
+} */
+
+.post button:hover  {
+    background-color: red;
+    color: white;
+}
+
+/* :active */
+.post button:active {
+    background-color: #02c39a;
+}
+
+/* :nth-of-type() */
+
+/* pseudo elements */
+button::first-letter {
+    font-size: 50px;
+}
+p::first-line {
+    color: purple;
+}
+
+p::selection{
+    background-color: orange;
+}
+
+/* 
+!!!
+in css specificity
+in some cases have !important : priority
+*/

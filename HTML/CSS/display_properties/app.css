@@ -1,0 +1,47 @@
+/* h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: inline;
+}
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    display: block;
+} */
+
+/* if the element has a display of inline (span), width and height is ignored */
+span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    /* width: 100px; */ 
+    /* --> ignored */
+    padding: 10px;
+    margin: 50px;
+    /* span: inline block 
+    can change in horizontakl(bề ngang), can not change in vertical */
+}
+
+
+h1 {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    width: 300px;
+    padding: 50px;
+    margin: 50px;
+}
+
+/* block element (div) can change the width and height */
+
+/* =================================================================================================== */
+
+/* inline-block is the combination of inline and block */
+/* which mean can using boxmodel properties */
+div {
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 50px;
+}

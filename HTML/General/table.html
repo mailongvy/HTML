@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaviest Birds Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        td,
+        th {
+            border: 2px;
+            border-color: black;
+        }
+    </style>
+</head>
+
+<!-- tr = row 
+th = head
+td = element in cells -->
+
+<body>
+    <!-- table 1 -->
+    <table border="2">
+        <caption>Hearviest Birds </caption>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Animal</th>
+                <th>Binomial Name</th>
+                <th>Avarage mass</th>
+                <th>Maximum mass</th>
+                <th>Avarage total length</th>
+                <th>Flighted</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><a href="https://en.wikipedia.org/wiki/Ostrich">Ostrich</a></td>
+                <td>Struthio camelus</td>
+                <td>104 (203) <sup><a href="">156</a></sup></td>
+                <td>130 (287)</td>
+                <td>200 (6.6)</td>
+                <td>No</td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td>Southern cassowary</td>
+                <td>Casuarius casuarisus</td>
+                <td>45 kg (99 lb)</td>
+                <td>85 kg (187 lb)</td>
+                <td>155 cm (5.07 ft)</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+
+    <!-- table 2 -->
+    <table>
+        <caption>Hearviest Birds </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Rank</th>
+                <th colspan="2">Avarage mass</th>
+                <th rowspan="2">Flighted</th>
+            </tr>
+            <tr>
+                <th>KG</th>
+                <th>LP</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>104</td>
+                <td>203</td>
+                <td>No</td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td>45</td>
+                <td>99</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+<!-- table 3 -->
+    <table>
+        <caption>Heaviest Birds</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Rank</th>
+                <th colspan="2">Avarage mass</th>
+                <th colspan="2">Flighted</th>
+            </tr>
+            <tr>
+                <th>unusual</th>
+                <th>normal</th>
+                <th>KG</th>
+                <th>LB</th>
+                <th>Y</th>
+                <th>N</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+
+</html>

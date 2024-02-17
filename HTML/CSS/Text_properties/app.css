@@ -1,0 +1,26 @@
+h1 {
+    text-align: center; 
+    /* text align là định dạng bố cục văn bản */
+    font-weight: 700;
+    /* bold or unbold for text */
+    text-decoration:  pink overline wavy;
+    /* định dạng văn bản */
+    letter-spacing: 5px;
+    font-size: 100px ;
+    /* thay đổi font size; */
+    font-family: 'Times New Roman', Times, serif;
+    /* kiểu chữ  */
+    
+}
+a {
+    text-decoration: none;
+}
+/* a:active {
+    color: red;
+    text-decoration: underline dotted;
+} */
+p  {
+    line-height: 2;
+    /* khoảng cách của các dòng */
+}
+

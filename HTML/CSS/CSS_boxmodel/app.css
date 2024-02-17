@@ -1,0 +1,64 @@
+/* width and height */
+div {
+    width: 200px;
+    height: 200px;
+    background-color: pink;   
+}
+
+/* border
+border width: control a thickness of border
+border-color: control the color of border
+border-style: contrrol the line style: solid, dashed  */
+h2  {
+    background-color: pink;
+    width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+#one {
+    background-color: #fefae0;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    /* box-sizing: border-box; */
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#two {
+    background-color: #669bbc;
+    border-width: 3px;
+    border-color: #edede9;
+    border-style: dashed;
+    padding-right: 50px;
+}
+
+#three {
+    background-color: #a2d2ff;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+/*
+apply for all 4 sides
+padding: 10px;
+
+vertical(top, bottom) | horizontal(left, right)
+padding: 5px 10px;
+
+top | horizontal | bottom
+padding: 1px 2px 2px;
+
+top | right | bottom | left
+padding: 5px 1px 0 2px;
+ */
+/* | */
+/* | */
+/* | */
+/* V */
+/* margin has the same syntax */
