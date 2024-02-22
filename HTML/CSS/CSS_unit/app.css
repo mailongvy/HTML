@@ -1,0 +1,62 @@
+#percentages section {
+    background-color: #ffafcc;
+    width: 800px;
+    height: 800px;
+}
+#percentages div {
+    background-color: #a2d2ff;
+    width: 50%;
+    height: 50%;
+}
+
+#em h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+#em h2 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+#em h3 {
+    font-size: 1.5em;
+}
+
+#em p {
+    font-size: 1em;
+}
+
+#em article {
+    font-size: 15px;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #2a9d8f;
+    color: white;
+}
+
+/* em is unit which can related to parent element (font size) 
+for other element 1 em is equal to the computed font-size of the element itself  */
+
+/* because em is related to parent element  */
+/* rems is root ems
+ralative to the root html element's font-size. Often easier to work with.
+If the root font size is 20px, 1 rem is always 20px, 2rem is always 40px*/
+
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 0.8rem;
+}
+

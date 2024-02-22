@@ -1,0 +1,53 @@
+div {
+    width: 50px;
+    height: 50px;
+    background-color: #219ebc;
+    border: 1px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+
+#middle {
+    background-color: #606c38;
+}
+
+#static #middle {
+    position: static;
+    top: 50px;
+}
+
+/* =========================================================================================================== */
+
+#relative #middle {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/* =========================================================================================================== */
+
+#absolute {
+    position: relative;
+}
+
+#absolute #middle {
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+}
+
+/* ============================================================================================================= */
+
+#fixed #middle {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* 
+static: This is the default value. The top, right, bottom, left, and z-index properties have no effect
+relative: The element is positioned relative to its normal position. The top, right, bottom, left, and z-index properties have effect on them
+absolute: The element is positioned relative to its first positioned (not static) ancestor element. The top, right, bottom, left, and z-index properties have effect on them
+fixed: The element is positioned relative to the browser window. The top, right, bottom, left, and z-index properties have effect on them
+
+
+*/
