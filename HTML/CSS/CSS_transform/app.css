@@ -24,3 +24,32 @@ h1:nth-of-type(4n) {
     background-color: #e76f51;
 }
 
+/* transform-origin: ets the origin for an element's transformations (lấy điểm làm gốc) */
+/* scale: resizing for the element 
+scale(a): resizing on X axis and Y axis in 2D
+scale(a, b): resizing on X axis a times and Y axis b times*/
+section:first-of-type h1:nth-of-type(1) {
+    transform-origin: bottom right;
+    transform: rotate(45deg);
+}
+section:first-of-type h1:nth-of-type(2) {
+    transform: scale(2);
+}
+section:first-of-type h1:nth-of-type(3) {
+    transform: translateX(300px);
+}
+section:first-of-type h1:nth-of-type(4) {
+    transform: translate(-100px, 100px);
+}
+section:nth-of-type(2) h1:nth-of-type(1) {
+    transform: skew(45deg);
+}
+section:nth-of-type(2) h1:nth-of-type(2) {
+    transform: skew(10deg, 5deg);
+}
+section:nth-of-type(2) h1:nth-of-type(3) {
+    transform: rotate(90deg) scale(1.2) ;
+}
+section:nth-of-type(2) h1:nth-of-type(4) {
+    transform: translate(-500px) rotate(180deg) scaleY(1.5); 
+}

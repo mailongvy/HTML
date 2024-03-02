@@ -1,0 +1,25 @@
+section {
+    width: 80%;
+    height: 800px;
+    /* background-color: purple; */
+    /* background-image: url(https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg);
+    background-size: cover;
+    background-position: top; */
+    background: center/40% no-repeat url(https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg) blueviolet;
+    margin: 0 auto;
+
+}
+
+/* The <bg-size> value may only be included immediately after <position>, separated with the '/' character, like this: "center/80%" */
+/* background-repeat: A background image can be  repeated along the horizontal and vertical axes */
+
+/* 
+background-size
+cover: Scales the image (while preserving its ratio) to the smallest possible size to fill the container (that is: both its height and width completely cover the container), leaving no empty space. If the proportions of the background differ from the element, the image is cropped either vertically or horizontally. 
+contain: Scales the image as large as possible within its container without cropping or stretching the image. If the container is larger than the image, this will result in image tiling, unless the background-repeat property is set to no-repeat.*/
+
+
+h1 {
+    font-size: 100px;
+    color: white;
+}

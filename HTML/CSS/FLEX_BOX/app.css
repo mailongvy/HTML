@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+/* The flex-direction CSS property sets(sắp đặt) how flex items are placed in the flex container defining(xác định) the main axis and the direction(HƯỚNG) (normal or reversed). */
+
+
+/* the justify-content: The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container. 
+start: Items are packed toward the start line.
+end: Items are packed toward the end line.
+center: Items are centered along the line.
+space-between: Items are evenly distributed in the line; first item is on the start line, last item on the end line.
+space-around: Items are evenly distributed in the line with equal space around them. */
+
+/* flex-wrap: The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked. 
+wrap, wrap-reverse, */
+
+/* align-items: is going to distribute the space or distribute the items along the across-axis 
+align-content: The align-content CSS property sets how the browser distributes space between and around content items along the cross-axis of a flex container, and the block axis of a grid container. */

@@ -1,0 +1,20 @@
+body {
+    background-color: grey;
+}
+img {
+    width: 30%;
+    margin: calc(10% / 6);
+}
+
+/* The calc() function performs a calculation to be used as the property value. It can be used anywhere a length, frequency, angle, time, percentage, number, or integer is allowed. */
+nav {
+
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    width: 30%;
+    margin-left: calc(10% / 6);
+    padding: 20px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em; 
+
+}
