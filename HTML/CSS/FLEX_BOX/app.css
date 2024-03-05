@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 
 }
 
@@ -10,22 +11,55 @@ h1 {
 #container {
     background-color: #003049;
     width: 90%;
-    height: 500px;
+    /* height: 800px; */
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
+    align-content: center;
 }
 
 #container div {
     width: 200px;
     height: 200px;
     text-align: center;
+    flex-basis: 350px;
+
 }
 
+/* div:nth-of-type(3) {
+    align-self: center;
+} */
+
+div:nth-of-type(1) {
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+div:nth-of-type(5) {
+    flex-grow: 1;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+    
+}
+
+main .sidebar {
+    background-color: #6930c3;
+    /* border: 2px solid white; */
+    flex: 1 250px;
+}
+main .maincontent {
+    background-color: #80ffdb;
+    flex: 1 600px;
+}
 /* The flex-direction CSS property sets(sắp đặt) how flex items are placed in the flex container defining(xác định) the main axis and the direction(HƯỚNG) (normal or reversed). */
 
 
@@ -40,4 +74,14 @@ space-around: Items are evenly distributed in the line with equal space around t
 wrap, wrap-reverse, */
 
 /* align-items: is going to distribute the space or distribute the items along the across-axis 
-align-content: The align-content CSS property sets how the browser distributes space between and around content items along the cross-axis of a flex container, and the block axis of a grid container. */
+
+align-content: The align-content CSS property sets how the browser distributes space between and around content items along the cross-axis of a flex container, and the block axis of a grid container.
+*/
+/* 
+flex-basis: he flex-basis CSS property sets the initial(ban đầu) main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing.
+flex-grow: The flex-grow CSS property sets the flex grow factor of a flex item main size. It specifies how much of the remaining space in the flex container should be assigned to the item (the flex grow factor).
+flex-shrink: The flex-shrink CSS property sets the flex shrink(co lại) factor of a flex item. If the size of all flex items is larger than the flex container, items shrink to fit according to flex-shrink.
+
+flex-shorthand: The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available in its flex container. It is a shorthand for flex-grow, flex-shrink, and flex-basis.
+
+*/
