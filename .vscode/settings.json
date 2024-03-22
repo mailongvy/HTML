@@ -1,3 +1,10 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.location": "side",
+    "editor.experimentalInlineEdit.showToolbar": "onHover",
+    "editor.inlineSuggest.showToolbar": "onHover",
+    "workbench.sideBar.location": "left",
+    "zenMode.hideActivityBar": true,
+    "debug.enableStatusBarColor": true
 }
