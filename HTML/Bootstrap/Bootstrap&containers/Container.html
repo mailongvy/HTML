@@ -26,22 +26,37 @@
         2. lead in p(changes in font size and font weight)
         
         -->
-        
+
         <h1 class="display-1 text-center text-primary">Bootstrap playground</h1>
-        <h2 class="display-4">Buttons</h2>
+        <h2 class="display-4">Buttons <span class="badge bg-danger rounded-pill">New</span></h2>
 
         <!-- bootstrap button 
         -->
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-success">Primary</button>
         <button type="button" class="btn btn-info">Primary</button>
-
-        
         <button class="btn btn-outline-warning">WARNING</button>
         <button class="btn btn-outline-danger">Danger</button>
+        <button class="btn btn-primary">Update <span class="badge bg-danger">99+</span></button>
+
+        <!-- button group examples -->
+        <h3 class="display-1">Button group</h3>
+        <div class="btn-group">
+            <button class="btn btn-warning">One</button>
+            <button class="btn btn-warning">Two</button>
+            <button class="btn btn-warning">Three</button>
+        </div>
+
+        <!-- alert container with bootstrap -->
+        <h3 class="display-1">Alerts</h3>
+        <div class="alert alert-danger alert-dismissible fade show">
+            <h4 class="alert-heading">Oh no!</h4>
+            Danger! You are about to end the world
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
 
         <h2 class="display-4">Typography</h2>
-        <p >
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni aliquam molestiae sint
             consectetur,
             voluptatum, repudiandae cupiditate aperiam inventore beatae enim, molestias rem illum voluptates debitis
@@ -70,7 +85,9 @@
         4. class: text-center, text-left, text-right, text-justify
         -->
         <blockquote class="blockquote text-center">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur veritatis quos perferendis provident vero non similique neque laudantium earum consequatur repellendus expedita nobis, illum unde, explicabo nihil, rerum obcaecati iusto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur veritatis quos perferendis provident
+                vero non similique neque laudantium earum consequatur repellendus expedita nobis, illum unde, explicabo
+                nihil, rerum obcaecati iusto.</p>
 
             <footer class="blockquote-footer">Mr. Lorem Ipsum</footer>
         </blockquote>
@@ -83,7 +100,23 @@
 
         <!-- another component 
         badge: Documentation and examples for badges, our small count and labeling component
-        ex: 
+        1. badge: badge in span (<span class="badge bg-primary">Primary</span>)
+        2. badge rounded-pill: badge in span (<span class="badge bg-primary rounded-pill">Primary</span>)
+        ex: class:"badge bg-primary": background color
+        
+        -->
+
+        <!--button group  
+            have a parent div with class="btn-group"
+            inside the div, have multiple buttons with class="btn"
+
+        -->
+
+        <!-- alert container: Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+        -->
+
+        <!-- Bootstrap grid: helps us lay out the content on a webpage when we're using bootstrap
+        work inside the container
         
         -->
     </div>
