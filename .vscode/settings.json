@@ -1,7 +1,7 @@
 {
     "git.ignoreLimitWarning": true,
     "workbench.activityBar.iconClickBehavior": "toggle",
-    "workbench.activityBar.location": "side",
+    "workbench.activityBar.location": "default",
     "editor.experimentalInlineEdit.showToolbar": "onHover",
     "editor.inlineSuggest.showToolbar": "onHover",
     "workbench.sideBar.location": "left",
